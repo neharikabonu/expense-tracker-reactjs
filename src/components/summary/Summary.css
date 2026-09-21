@@ -1,0 +1,57 @@
+.summary {
+  margin-bottom: 30px;
+}
+
+.balance-card {
+  background-color: white;
+  padding: 25px;
+  border-radius: 10px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.balance-card h3 {
+  margin-top: 0;
+  color: #666;
+}
+
+.balance-card p {
+  margin-bottom: 0;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.summary-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.summary-card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.summary-card h3 {
+  margin-top: 0;
+  color: #666;
+}
+
+.summary-card p {
+  margin-bottom: 0;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.balance-card,
+.summary-card {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+@media (max-width: 600px) {
+  .summary-row {
+    grid-template-columns: 1fr;
+  }
+}
