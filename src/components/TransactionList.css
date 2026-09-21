@@ -9,3 +9,21 @@
   overflow-y: auto;
   padding-right: 8px;
 }
+
+.transaction-list::-webkit-scrollbar {
+  width: 6px;
+}
+
+.transaction-list::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+.transaction-list::-webkit-scrollbar-thumb {
+  background: #bbb;
+  border-radius: 10px;
+}
+
+.transaction-list::-webkit-scrollbar-thumb:hover {
+  background: #999;
+}
