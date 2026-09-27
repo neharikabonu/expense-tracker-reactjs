@@ -1,5 +1,7 @@
 # Expense Tracker
 
+**Live at : https://neharikabonu.github.io/expense-tracker-reactjs/**
+
 A responsive **Expense Tracker web application** built with React to manage income and expenses in a simple and user-friendly interface.
 
 The application allows users to add, edit, delete, filter, and persist transactions using the browser's `localStorage`.
@@ -136,4 +138,3 @@ Some features that could be added in the future:
 
 B.Tech CSE Graduate | Frontend Developer
 
-Built as a React practice project to strengthen frontend development skills.
